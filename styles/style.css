@@ -28,6 +28,14 @@ body {
   margin: auto;
 }
 
+.btn {
+  background-color: var(--btn-bg-color);
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  color: var(--general-text-color);
+}
+
 /* ==================== HERO SECTION ==================== */
 header {
   padding-top: 42px;
@@ -51,14 +59,36 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--btn-bg-color);
-  border: none;
-  padding: 10px 24px;
-  font-size: 16px;
-  color: var(--general-text-color);
 }
 
 .login-btn img {
   width: 30%;
   margin-right: 10px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 49px;
+}
+
+.hero-content {
+  width: 485px;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: 700;
+  line-height: 80px;
+  margin-bottom: 27px;
+}
+
+.hero-banner {
+  width: 556.01px;
+}
+
+.hero-banner img {
+  width: 100%;
 }
