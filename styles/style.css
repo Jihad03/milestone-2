@@ -1,0 +1,64 @@
+/* ==================== RESETS ==================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ==================== VARIABLES ==================== */
+
+:root {
+  --hero-bg-color: #2d25a0;
+  --btn-bg-color: #e02c6d;
+  --primary-icon-bg: #0b0d17;
+  --primary-text-color: #18191f;
+  --secondary-text-color: #6c6c6c;
+  --general-text-color: #fff;
+}
+
+/* ==================== REUSABLES ==================== */
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/* ==================== HERO SECTION ==================== */
+header {
+  padding-top: 42px;
+  height: 667px;
+  background-color: var(--hero-bg-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: var(--general-text-color);
+  text-decoration: none;
+  margin-right: 36px;
+}
+
+.login-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--btn-bg-color);
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  color: var(--general-text-color);
+}
+
+.login-btn img {
+  width: 30%;
+  margin-right: 10px;
+}
