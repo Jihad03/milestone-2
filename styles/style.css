@@ -155,3 +155,37 @@ nav a {
   width: 567px;
   height: 427px;
 }
+
+/* ==================== FOOTER SECTION ==================== */
+
+footer {
+  margin-top: 158px;
+  margin-bottom: 63px;
+}
+
+.footer-content {
+  width: 483.87px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  width: 170px;
+  margin: auto;
+}
+
+.social-links img {
+  width: 32px;
+  height: 32px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
