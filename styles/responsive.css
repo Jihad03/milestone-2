@@ -1,0 +1,98 @@
+/* ==================== VARIABLES ==================== */
+
+:root {
+  --hero-bg-color: #2d25a0;
+  --btn-bg-color: #e02c6d;
+  --primary-icon-bg: #0b0d17;
+  --primary-text-color: #18191f;
+  --secondary-text-color: #6c6c6c;
+  --general-text-color: #fff;
+}
+
+@media (max-width: 768px) {
+  /* Nav Section */
+
+  #navLink {
+    display: none;
+  }
+
+  #menuIcon {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100px;
+    left: 4%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--general-text-color);
+    border-radius: 10px;
+  }
+
+  .nav-links a {
+    color: #000;
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  /* Hero Section */
+  header {
+    height: 800px;
+  }
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    width: 328px;
+    margin-bottom: 50px;
+  }
+
+  .hero-banner {
+    width: 329px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  /* Players Section */
+
+  .players {
+    justify-content: space-around;
+  }
+
+  /* Highlight Section */
+  .highlight {
+    flex-direction: column;
+  }
+
+  .highlight-content {
+    margin-bottom: 29px;
+  }
+
+  .highlight-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .highlight-content p {
+    color: var(--secondary-text-color);
+  }
+
+  .highlight-img img {
+    width: 328px;
+    height: 248px;
+  }
+
+  /* Footer Section */
+
+  .footer-content {
+    width: 328px;
+  }
+
+  .footer-logo {
+    width: 275.8px;
+  }
+}

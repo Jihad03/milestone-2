@@ -12,12 +12,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
     <title>Football</title>
   </head>
   <body>
     <header>
       <nav class="container flex">
-        <div class="nav-links">
+        <img
+          src="./imgs/menu 1.png"
+          alt=""
+          id="menuIcon"
+          onclick="displayMenu()"
+        />
+        <div class="nav-links" id="navLink">
           <a href="#">Home</a>
           <a href="#">Clubs</a>
           <a href="#">World Cup 2023</a>
@@ -179,5 +186,7 @@
         <p>Copyright &copy; 2022 Football</p>
       </div>
     </footer>
+    <!-- JS Files -->
+    <script src="./app.js"></script>
   </body>
 </html>

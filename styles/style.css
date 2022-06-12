@@ -53,6 +53,10 @@ header {
   background-color: var(--hero-bg-color);
 }
 
+#menuIcon {
+  display: none;
+}
+
 nav a {
   color: var(--general-text-color);
   text-decoration: none;
@@ -131,7 +135,7 @@ nav a {
   color: var(--secondary-text-color);
 }
 
-/* ==================== PLAYER SECTION ==================== */
+/* ==================== HIGHLIGHT SECTION ==================== */
 
 .highlight {
   margin-top: 165px;
